@@ -2,8 +2,8 @@ import { useState } from "react";
 import { apiFetch } from "../api";
 
 function Login({ onLogin }) {
-  const [email, setEmail] = useState("demo@teamforge.com");
-  const [password, setPassword] = useState("YOUR_DEMO_PASSWORD");
+  const [email, setEmail] = useState("TEAMFORGE_ADMIN@gmail.com");
+  const [password, setPassword] = useState("veginatikavya");
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
