@@ -1,5 +1,6 @@
 const API_BASE =
-  import.meta.env.VITE_API_BASE_URL || "http://localhost:8081/api";
+  import.meta.env.VITE_API_BASE_URL ||
+  "https://teamforge-backend-3ccv.onrender.com/api";
 
 export async function apiFetch(endpoint, options = {}) {
   const token = sessionStorage.getItem("teamforge_token");
